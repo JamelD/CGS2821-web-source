@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS by Jamel Douglas*/
+/* October 4, 2019 */
+/* jed18c@my.fsu.edu */
+
+body {
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.7em;
+	color: #0D0D0D;
+	background-color: #F2F2F2;
+	padding: 0 30px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.12em;
+	color: #0D0D0D;
+}
+h1 {
+	font-size: 30px;
+	padding: 6px 0;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	letter-spacing: 0.2em;
+	background-color: #F2B705;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-style: italic;
+	color: #5E88BF;
+	text-decoration: none;
+}
+a:visited {
+	font-style: italic;
+	color: #5E88BF;
+	text-decoration: none;
+}
+a:hover {
+	color: #C4C1D9;
+}
+
+/* list styles ----------------------------- */
+ul li{
+	margin-left: 14px;
+}
+ol {
+	margin-left: 16px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #F2B705 1px;
+}
+td {
+	padding: 6px;
+	border: solid #F2B705 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #F2B705;
+	text-align: center;
+	padding: 6px;
+	border: solid #F2B705 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #F2B705 1px;
+}
+
+img {
+	border: solid #F2B705 1px;
+
+}
+iframe {
+	border: solid #F2B705 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
